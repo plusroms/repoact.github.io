@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+    <addon id="repository.dnow" name="Fast dis" version="0.1.0" provider-name="Motch">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Fast dis">
+            <info compressed="false">https://raw.githubusercontent.com/plusroms/repoact.github.io/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/plusroms/repoact.github.io/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/plusroms/repoact.github.io/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>fsfs</summary>
+            <description>The description can be longer</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.asd.fsed" name="fsdfs" version="0.0.1" provider-name="none">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+	<import addon="script.module.requests" version="2.4.3"/>
+
+    </requires>
+    <extension point="xbmc.python.script" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">nothing</summary>
+        <description lang="en_GB"></description>
+        <language></language>
+        <platform>all</platform>
+        <license>MPL-2.0</license>
+        <forum></forum>
+        <website> </website>
+        <email> </email>
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+</addons>
